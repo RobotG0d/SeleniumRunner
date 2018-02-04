@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumRunner.Model", "SeleniumRunner.Model\SeleniumRunner.Model.csproj", "{C3E95F48-0E68-4B08-956C-4BE5489D5BE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumRunner.CLI", "SeleniumRunner.CLI\SeleniumRunner.CLI.csproj", "{CD213BBA-EB68-4031-A90D-230B4A8D4EC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3E95F48-0E68-4B08-956C-4BE5489D5BE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3E95F48-0E68-4B08-956C-4BE5489D5BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3E95F48-0E68-4B08-956C-4BE5489D5BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3E95F48-0E68-4B08-956C-4BE5489D5BE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD213BBA-EB68-4031-A90D-230B4A8D4EC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD213BBA-EB68-4031-A90D-230B4A8D4EC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD213BBA-EB68-4031-A90D-230B4A8D4EC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD213BBA-EB68-4031-A90D-230B4A8D4EC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
