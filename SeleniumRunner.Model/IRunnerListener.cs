@@ -7,7 +7,8 @@ namespace SeleniumRunner.Model
     {
         void OnProjectStart(SideFile project);
         void OnTestStart(Test test);
-        void OnCommand(Instruction instruction);
+        void OnCommand(Test test, Instruction instruction);
+        void OnCommandError(Test test, Instruction instruction, Exception e);
         void OnTestEnd(Test test, TimeSpan elapsed);
         void OnProjectEnd(SideFile project);
     }

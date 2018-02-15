@@ -20,9 +20,14 @@ namespace SeleniumRunner.CLI
             Console.WriteLine($@"Starting test {test.Name}!");
         }
 
-        public void OnCommand(Instruction instruction)
+        public void OnCommand(Test test, Instruction instruction)
         {
-            Console.WriteLine($@"Applying '{instruction.Command}' command to target '{instruction.Target}'");
+            Console.WriteLine($@"{test.Name}: Applying '{instruction.Command}' command to target '{instruction.Target}'");
+        }
+
+        public void OnCommandError(Test test, Instruction instruction, Exception e)
+        {
+            Console.WriteLine($@"{test.Name}: Command '{instruction.Command}' being applied to target '{instruction.Target}' failed: {e}");
         }
 
         public void OnTestEnd(Test test, TimeSpan elapsed)
